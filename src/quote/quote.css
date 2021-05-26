@@ -1,0 +1,42 @@
+.quote-box {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.quote {
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.doubleQuotes {
+  font-size: 48px;
+  padding: 0 1%;
+}
+
+.footer {
+  font-size: 15px;
+  font-weight: 500;
+  font-style: italic;
+  color: #fff;
+  display: flex;
+  margin: 0 2% 2% 2%;
+}
+
+.company {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-grow: 1;
+}
